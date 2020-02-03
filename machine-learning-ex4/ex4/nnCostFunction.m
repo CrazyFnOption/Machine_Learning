@@ -88,7 +88,7 @@ end
 
 for i = 1:m
     J = J + y_temp(i,:) * log(hx(i,:))' + (1 - y_temp(i,:)) * log(1 - hx(i,:))';
-end
+end 
 
 J = J / -m;
 
