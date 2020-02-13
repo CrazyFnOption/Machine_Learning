@@ -49,8 +49,6 @@ for i = 1 : size(lambda_vec)
     error_val(i) = linearCost(Xval,yval,theta);
     
     
-    
-    
 end
 
 
